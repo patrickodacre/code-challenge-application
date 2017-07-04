@@ -1,0 +1,29 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "Very cool App",
+  "main": "application/index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:patrickodacre/code-challenge-application.git"
+  },
+  "author": "Patrick ODacre",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4"
+  }
+}
