@@ -12,6 +12,8 @@ npm install
 npm start
 ```
 
+Unzip the sakila.sql.gz included in this repo and import the data to a MySQL database. The code is configured for database 'challenge' and local dev url 'http://challenge.dev'. Be sure to update the code to make your local setup.
+
 *Cities with stores:*
 Canada > Lethbridge
 Australia > Woodridge
